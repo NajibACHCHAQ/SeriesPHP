@@ -1,0 +1,95 @@
+
+body{
+    background-color: red;
+}
+header{
+    background-color: rgba(119, 184, 174, 0.7);
+    width: 100%;
+    height: 80px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.sous-titre{
+    width: fit-content;
+    font-size: 16px;
+    margin: 0 auto;
+}
+.table{
+    border: 1px solid black;
+}
+
+button{
+
+    height: 30px;
+
+}
+.add{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    background: greenyellow;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.formulaire{
+    border:1px solid black;
+    margin: 0 auto;
+    width: fit-content;
+
+    justify-content: center;
+
+
+}
+
+.formulaire button{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.valid{
+    margin: 0 auto;
+}
+
+.saisie-titre{
+   display: grid;
+   grid-template-columns: auto 1fr;
+   justify-content: space-between;
+   margin: 12px;
+}
+.saisie-titre label {
+    margin-right: 6px;
+}
+
+.saisie-vue{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 12px;
+
+}
+
+.saisie-feedback{
+    width: fit-content;
+    
+}
+
+.enteteform{
+    width: 100%;
+    height: fit-content;
+    background: rgba(154, 226, 215, 0.7);
+    padding: 12px;
+    justify-content: center;
+    text-align:center;
+    font-weight: bold;
+}
+.table{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
